@@ -1,0 +1,14 @@
+--- origsrc/stalonetray-0.7.6/src/main.c	2008-01-04 01:20:49.000000000 -0600
++++ src/stalonetray-0.7.6/src/main.c	2008-10-30 16:43:22.537542500 -0500
+@@ -42,6 +42,11 @@
+ #include "settings.h"
+ #include "tray.h"
+ 
++#ifdef __CYGWIN__
++/* in this case, str is always NULL, so we just ignore it  */
++#define psignal(sig, str) fprintf(stderr, "%s\n", strsignal(sig))
++#endif
++
+ struct TrayData tray_data;
+ 
+ static int tray_status_requested = 0;

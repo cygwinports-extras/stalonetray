@@ -1,0 +1,6 @@
+DESCRIPTION="Stand-alone X11 notification area"
+HOMEPAGE="http://stalonetray.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"
+PATCH_URI="0.7.6-psignal.patch"
+
+DOCS="stalonetrayrc.sample"
