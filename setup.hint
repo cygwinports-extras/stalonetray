@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libX11_6 libXpm4
+requires: libX11_6 libXpm4
 sdesc: "Stand-alone X11 notification area"
 ldesc: "Stalonetray is a stand-alone freedesktop.org and KDE system 
 tray (notification area) for X Window System/X11. It has full XEMBED 
