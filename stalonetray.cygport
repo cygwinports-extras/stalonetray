@@ -1,0 +1,14 @@
+NAME="stalonetray"
+VERSION=0.7.6
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="Stand-alone X11 notification area"
+DESCRIPTION="Stalonetray is a stand-alone freedesktop.org and KDE system tray
+(notification area) for X Window System/X11. It has full XEMBED support and
+minimal dependencies. Stalonetray works with virtually any EWMH-compliant
+window manager."
+HOMEPAGE="http://stalonetray.sourceforge.net/"
+SRC_URI="mirror://sourceforge/stalonetray/stalonetray-${VERSION}.tar.bz2"
+PATCH_URI="0.7.6-psignal.patch"
+
+DOCS="stalonetrayrc.sample"
