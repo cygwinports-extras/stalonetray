@@ -9,6 +9,5 @@ minimal dependencies. Stalonetray works with virtually any EWMH-compliant
 window manager."
 HOMEPAGE="http://stalonetray.sourceforge.net/"
 SRC_URI="mirror://sourceforge/stalonetray/stalonetray-${VERSION}.tar.bz2"
-PATCH_URI="0.7.6-psignal.patch"
 
 DOCS="stalonetrayrc.sample"
