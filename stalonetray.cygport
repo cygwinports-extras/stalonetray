@@ -1,5 +1,5 @@
 NAME="stalonetray"
-VERSION=0.7.6
+VERSION=0.8.3
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="Stand-alone X11 notification area"
